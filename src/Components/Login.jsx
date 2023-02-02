@@ -19,7 +19,7 @@ function Login() {
   const passHandler = (e) => {
     setPass(e);
   };
-  //   Login Handler
+  //   Login Button Handler
   const loginHandler = () => {
     // Check Validation
     if (email === "") {
